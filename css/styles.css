@@ -1,17 +1,17 @@
 @import 'modern-normalize';
 body{
-    font-family: Roboto;
-    color: black;
-    background-color: ;
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color:#FFFFFF ;
 }
 span{
-    color:#4D5AE5;
+    color:#000000;
     font-family: Raleway;
 }
 
 .logo{
-    line-height: 1,16;
-    color: black;
+    line-height: 1.16;
+    color: #4D5AE5;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 3%;
@@ -19,12 +19,12 @@ span{
     text-transform: uppercase;
 }
 .header-nav a{
-    line-height: 1,5;
+    line-height: 1.5;
         list-style-type: none;
         font-weight: 500;
         text-decoration: none;
         font-size: 16px;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
         color: #2E2F42;
     }
 .slogan-button:hover,
@@ -40,7 +40,7 @@ address ul a:focus,
 }
 
 address ul a{
-    line-height: 1,5;
+    line-height: 1.5;
     font-weight: 500;
     text-decoration: none;
     font-size: 16px;
@@ -55,7 +55,7 @@ address ul,
     list-style: none;
 }
 .slogan{
-    line-height: 1,07;
+    line-height: 1.07;
     font-weight: 700;
      font-size:  56px;
      color: #FFFFFF;
@@ -63,11 +63,10 @@ address ul,
 }
 .slogan-button{
     cursor: pointer;
-    line-height:1,5;
+    line-height:1.5;
     font-family: inherit;
     background-color: #4D5AE5;
     color: #FFFFFF;
-    border-radius: 2px;
    border: none;
 }
 .portfolio-examples h3,
@@ -80,28 +79,26 @@ address ul,
 .portfolio-examples,
 .team-members p,
 .advantsges-title p{
-    line-height: 1, 5;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: #434455;
     font-weight: 400;
      font-size: 16px;
     }
 
-   .team-members img{
-    width: 264px ;
-    height: 260;
-   }
-
 .team-title,
 .portfolio{
-    line-height: 1,1;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
     font-weight: 700;
      font-size: 36px;
      text-align: center;
 }
+footer{
+    background-color: #2e2f42;
+}
 .footer-text{
+    color: #4d5ae5;
     font-weight: 400;
         font-size: 16px;
-}
-.portfolio-examples{
-    width: 360px;
 }
