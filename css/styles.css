@@ -1,4 +1,65 @@
 @import 'modern-normalize';
 body{
-    
+    font-family: Roboto;
+    color: black;
+    background-color: ;
+}
+span{
+    color:#4D5AE5;
+    font-family: Raleway;
+}
+
+.logo{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-nav a{
+        list-style-type: none;
+        font-weight: 500;
+        text-decoration: none;
+        font-size: 16px;
+        letter-spacing: 2%;
+        color: #2E2F42;
+    }
+
+
+address ul a{
+    list-style-type: none;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2%;
+    color: #434455;
+}
+.header-nav,
+address ul,
+.advantsges-title {
+    list-style: none;
+}
+.slogan{
+    font-weight: 700;
+     font-size:  56px;
+     color: #FFFFFF;
+    text-align: center;
+}
+.slogan-button{
+    font-family: inherit;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border-radius: 2px;
+   border: none;
+}
+.advantsges-title h3{
+    letter-spacing: 2%;
+    font-weight: 500;
+    font-size: 20px;
+}
+.team-title{
+    font-weight: 700;
+     font-size: 36px;
+     text-align: center;
 }
