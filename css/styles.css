@@ -10,6 +10,7 @@ span{
 }
 
 .logo{
+    line-height: 1,16;
     color: black;
     font-weight: 700;
     font-size: 18px;
@@ -18,6 +19,7 @@ span{
     text-transform: uppercase;
 }
 .header-nav a{
+    line-height: 1,5;
         list-style-type: none;
         font-weight: 500;
         text-decoration: none;
@@ -25,41 +27,81 @@ span{
         letter-spacing: 2%;
         color: #2E2F42;
     }
+.slogan-button:hover,
+.slogan-button:focus{
+background-color: #404BBF;
+}
 
+address ul a:hover,
+address ul a:focus,
+.header-nav a:hover,
+.header-nav a:focus{
+    color: #404BBF;
+}
 
 address ul a{
-    list-style-type: none;
+    line-height: 1,5;
     font-weight: 500;
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 2%;
     color: #434455;
 }
+.portfolio-examples,
 .header-nav,
+.team-members,
 address ul,
 .advantsges-title {
     list-style: none;
 }
 .slogan{
+    line-height: 1,07;
     font-weight: 700;
      font-size:  56px;
      color: #FFFFFF;
     text-align: center;
 }
 .slogan-button{
+    cursor: pointer;
+    line-height:1,5;
     font-family: inherit;
     background-color: #4D5AE5;
     color: #FFFFFF;
     border-radius: 2px;
    border: none;
 }
-.advantsges-title h3{
+.portfolio-examples h3,
+.team-members h3{
+    line-height: 1,2;
     letter-spacing: 2%;
     font-weight: 500;
     font-size: 20px;
 }
-.team-title{
+.portfolio-examples,
+.team-members p,
+.advantsges-title p{
+    line-height: 1, 5;
+    color: #434455;
+    font-weight: 400;
+     font-size: 16px;
+    }
+
+   .team-members img{
+    width: 264px ;
+    height: 260;
+   }
+
+.team-title,
+.portfolio{
+    line-height: 1,1;
     font-weight: 700;
      font-size: 36px;
      text-align: center;
+}
+.footer-text{
+    font-weight: 400;
+        font-size: 16px;
+}
+.portfolio-examples{
+    width: 360px;
 }
