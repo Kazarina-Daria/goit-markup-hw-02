@@ -4,18 +4,17 @@ body{
     color: #434455;
     background-color:#FFFFFF ;
 }
-.logo .span {
-    color: #434455;
-    font-family: Raleway, sans-serif;
+.logo-span {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif; 
 }
-.logo{
+.site-logo{
     font-family: "Roboto", sans-serif;
     line-height: 1.17;
     color: #4D5AE5;
     letter-spacing: 0.03em;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 3%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -38,14 +37,14 @@ body{
 background-color: #404BBF;
 }
 
-address ul a:hover,
-address ul a:focus,
+.contact-link:hover,
+.contact-link:focus,
 .header-navigation:hover,
 .header-navigation:focus{
     color: #404BBF;
 }
 
-address ul a{
+.contact-link {
     line-height: 1.5;
     font-weight: 500;
     text-decoration: none;
@@ -56,7 +55,7 @@ address ul a{
 }
 .portfolio-examples,
 .header-nav,
-.logo,
+.site-logo,
 .team-members,
 address ul,
 .advantsges-title {
