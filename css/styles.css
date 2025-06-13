@@ -8,30 +8,32 @@ body{
     color: #2e2f42;
     font-family: "Raleway", sans-serif; 
 }
-.site-logo{
-    font-family: "Roboto", sans-serif;
-    line-height: 1.17;
-    color: #4D5AE5;
-    letter-spacing: 0.03em;
+.site-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
+
 
 .span-footer {
     color: #f4f4fd;
     font-family: Raleway, sans-serif;
 }
 
-.header-nav a{
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
-        font-weight: 500;
-        text-decoration: none;
-        font-size: 16px;
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-    }
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none; }
+
+
 .slogan-button:hover,
 .slogan-button:focus{
 background-color: #404BBF;
@@ -39,17 +41,19 @@ background-color: #404BBF;
 
 .contact-link:hover,
 .contact-link:focus,
-.header-navigation:hover,
-.header-navigation:focus{
+.nav-link:hover,
+.nav-link:focus{
     color: #404BBF;
 }
+
+.contact-info {
+    font-style: normal; }
 
 .contact-link {
     line-height: 1.5;
     font-weight: 500;
     text-decoration: none;
     font-size: 16px;
-    letter-spacing: 2%;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -80,8 +84,8 @@ address ul,
 }
 .portfolio-examples h3,
 .team-members h3{
-    line-height: 1,2;
-    letter-spacing: 2%;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
 }
