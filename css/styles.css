@@ -60,9 +60,12 @@ background-color: #404BBF;
 .portfolio-examples,
 .header-nav,
 .site-logo,
-.team-members,
 address ul,
 .advantsges-title {
+    list-style: none;
+}
+.team-members{
+    background-color: #FFFFFF;
     list-style: none;
 }
 .slogan{
@@ -83,21 +86,37 @@ address ul,
    border: none;
 }
 .portfolio-examples h3,
+.advantsges-titles-text,
 .team-members h3{
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 20px;
 }
-.portfolio-examples,
-.team-members p,
-.advantsges-title p{
+
+.portfolio-examples{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #434455;
     font-weight: 400;
      font-size: 16px;
     }
+    .advantsges-title p{
+        line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            font-weight: 400;
+            font-size: 16px;
+    }
+    .portfolio-examples-p,
+        .team-members p{
+            line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #434455;
+                font-weight: 400;
+                font-size: 16px;
+        }
+
 .advantsges-title{
     letter-spacing: 0.02em;
     font-size: 20px;
@@ -105,12 +124,21 @@ address ul,
 .visually-hidden{
     color: #2e2f42;
 }
-.team-title,
+.team-title{
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+        line-height: 1.11;
+        font-weight: 700;
+        font-size: 36px;
+        color: #2e2f42;
+        text-align: center;
+}
 .portfolio{
     letter-spacing: 0.02em;
-    line-height: 1.1;
+    line-height: 1.11;
     font-weight: 700;
      font-size: 36px;
+     color: #2e2f42;
      text-align: center;
 }
 .footer{
@@ -122,4 +150,7 @@ address ul,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.section-three{
+    background-color: #F4F4FD;
 }
