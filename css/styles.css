@@ -4,13 +4,13 @@ body{
     color: #434455;
     background-color:#FFFFFF ;
 }
-span{
-    color:#000000;
-    font-family: Raleway;
+.logo .span {
+    color: #434455;
+    font-family: Raleway, sans-serif;
 }
-
 .logo{
-    line-height: 1.16;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.17;
     color: #4D5AE5;
     letter-spacing: 0.03em;
     font-weight: 700;
@@ -19,6 +19,12 @@ span{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.span-footer {
+    color: #f4f4fd;
+    font-family: Raleway, sans-serif;
+}
+
 .header-nav a{
     line-height: 1.5;
         font-weight: 500;
@@ -34,8 +40,8 @@ background-color: #404BBF;
 
 address ul a:hover,
 address ul a:focus,
-.header-nav a:hover,
-.header-nav a:focus{
+.header-navigation:hover,
+.header-navigation:focus{
     color: #404BBF;
 }
 
@@ -50,6 +56,7 @@ address ul a{
 }
 .portfolio-examples,
 .header-nav,
+.logo,
 .team-members,
 address ul,
 .advantsges-title {
@@ -103,11 +110,13 @@ address ul,
      font-size: 36px;
      text-align: center;
 }
-footer{
+.footer{
     background-color: #2e2f42;
 }
 .footer-text{
-    color: #4d5ae5;
+    color: #F4F4FD;
     font-weight: 400;
-        font-size: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
