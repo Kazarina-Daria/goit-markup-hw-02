@@ -73,6 +73,7 @@ address ul,
     line-height: 1.07;
     font-weight: 700;
      font-size:  56px;
+    letter-spacing: 0.02em;
      color: #FFFFFF;
     text-align: center;
 }
@@ -80,13 +81,14 @@ address ul,
     cursor: pointer;
     line-height: 1.5;
     font-size: 16px;
+    font-weight: 500;
     font-family: inherit;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
     color: #FFFFFF;
    border: none;
 }
-.portfolio-examples h3,
+.portfolio-examples-title,
 .advantsges-titles-text,
 .team-members h3{
     line-height: 1.2;
@@ -135,6 +137,7 @@ address ul,
         text-align: center;
 }
 .portfolio{
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     line-height: 1.11;
     font-weight: 700;
@@ -154,4 +157,7 @@ address ul,
 }
 .section-three{
     background-color: #F4F4FD;
+}
+.section-one{
+    background-color: #2e2f42;
 }
