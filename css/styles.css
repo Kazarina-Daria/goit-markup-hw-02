@@ -96,7 +96,9 @@ address ul,
     font-weight: 500;
     font-size: 20px;
 }
-
+.advantsges-titles-text{
+    color: #2e2f42;
+}
 .portfolio-examples{
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -160,6 +162,9 @@ address ul,
 .team-paragraph{
     font-size: 16px;
 }
+.team-members-list{
+    background-color: #FFFFFF;
+}
 .portfolio {
     text-transform: capitalize;
     letter-spacing: 0.02em;
@@ -168,4 +173,7 @@ address ul,
     font-size: 36px;
     color: #2e2f42;
     text-align: center;
+}
+.team-subtitle {
+    color: #2e2f42;
 }
